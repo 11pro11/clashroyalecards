@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Flat&family=Patrick+Hand&family=Righteous&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rye&family=Space+Mono&display=swap');
+        body {
+            background-color: rgb(0, 0, 255);
+        }
+        img {
+            border-radius: 10%;
+            border: 0px solid #000;
+            max-width: 8.5rem;
+            max-height: 8.5rem;
+            min-width: 6.5rem;
+            min-height: 6.5rem;
+        }
+        p {
+            text-align: center;
+            font-size: 1.3rem;
+            cursor: pointer;
+            margin-bottom: 2rem;
+            margin-top: 0px;
+            visibility: hidden;
+            transition: all 300ms;
+        }
+        li:hover p {
+            visibility: visible;
+        }
+        li:hover {
+            background-color: Yellow;
+        }
+        body>div {
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Righteous', cursive;
+            color: yellow;
+        }
+        li {
+            display: inline-block;
+            background-color: rgb(0, 0, 0);
+            border: 0.2rem solid #000;
+            border-radius: 0.8rem;
+        }
+        .Champion{
+            font-family: 'Rye', cursive;
+            color: rgb(255, 0, 0);
+        }
+        .SuperCard{
+            font-family: 'Rye', cursive;
+            color: rgb(255, 0, 0);
+        }
+        .Legendary{
+            font-family: 'Rye', cursive;
+            color: rgb(255, 0, 0);
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>Clash Royale Cards</div>
+    <ul>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/V0yrMwq/Archer-Queen.png">
+                <div>
+                    <p class="Champion">Archer Queen</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/3T0vF7J/Archers.png">
+                <div>
+                    <p>Archers</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/hZ3K7Jb/Arrows.png">
+                <div>
+                    <p>Arrows</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/d6m1J63/Baby-Dragon.png">
+                <div>
+                    <p>Baby Dragon</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/5x13LKb/Balloon.png">
+                <div>
+                    <p>Balloon</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ZVD8LK1/Bandit.png">
+                <div>
+                    <p class="Legendary">Bandit</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/x6NvcmQ/Barbarian-Barrel.png">
+                <div>
+                    <p>Barb. Barrel</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/yYdkC4P/Barbarian-Hut.png">
+                <div>
+                    <p>Barbarian Hut</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/b2Dzn4c/Barbarian-Launcher.png">
+                <div>
+                    <p class="SuperCard">Barb Launcher</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/4fNCxv0/Barbarians.png">
+                <div>
+                    <p>Barbarians</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/HtxjW1m/Bats.png">
+                <div>
+                    <p>Bats</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/8xMKFR0/Battle-Healer.png">
+                <div>
+                    <p>Battle Healer</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/7RS7j53/Battle-Ram.png">
+                <div>
+                    <p>Battle Ram</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/12qM0h2/Bomb-Tower.png">
+                <div>
+                    <p>Bomb Tower</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/XxbLJWT/Bomber.png">
+                <div>
+                    <p>Bomber</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/hKx8fM3/Bowler.png">
+                <div>
+                    <p>Bowler</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/0B3j9cH/Cannon.png">
+                <div>
+                    <p>Cannon</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/wJYR3Pc/Cannon-Cart.png">
+                <div>
+                    <p>Cannon Cart</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ggP5qRY/Clone.png">
+                <div>
+                    <p>Clone</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/B23DJD4/Dark-Prince.png">
+                <div>
+                    <p>Dark Prince</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/Y3kXn76/Dart-Goblin.png">
+                <div>
+                    <p>Dart Goblin</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/n0Jn0FW/Earthquake.png">
+                <div>
+                    <p>Earthquake</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/BKWLBDN/Electro-Dragon.png">
+                <div>
+                    <p>Electro Dragon</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/6D8pq3K/Electro-Giant.png">
+                <div>
+                    <p>Electro Giant</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/FWkJH5h/Electro-Spirit.png">
+                <div>
+                    <p>Electro Spirit</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ph7NWWw/Electro-Wizard.png">
+                <div>
+                    <p class="Legendary">Electro Wizard</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/g6XPRvf/Elite-Barbarians.png">
+                <div>
+                    <p>E-Barbs</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/Xz1JWPT/Elixir-Collector.png">
+                <div>
+                    <p>Elixir Collector</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/6Yp19fn/Elixir-Golem.png">
+                <div>
+                    <p>Elixir Golem</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/Q8539sS/Executioner.png">
+                <div>
+                    <p>Executioner</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/r2NB8HK/Fire-Spirit.png">
+                <div>
+                    <p>Fire Spirit</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/G5VwL7D/Fireball.png">
+                <div>
+                    <p>Fireball</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/25p4VXN/Firecracker.png">
+                <div>
+                    <p>Firecracker</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/F5Gp3FD/Fisherman.png">
+                <div>
+                    <p class="Legendary">Fisherman</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/2KTzxYH/Flying-Machine.png">
+                <div>
+                    <p>Flying Machine</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/B2JnpR9/Freeze.png">
+                <div>
+                    <p>Freeze</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/9gH5yFP/Furnace.png">
+                <div>
+                    <p>Furnace</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/6wZGFmr/Giant-Skeleton.png">
+                <div>
+                    <p>Giant Skeleton</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ckYzyWX/Giant-Snowball.png">
+                <div>
+                    <p>Giant Snowball</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/Vmh9H7w/Giant.png">
+                <div>
+                    <p>Giant</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/QJSPBcj/Goblin-Barrel.png">
+                <div>
+                    <p>Goblin Barrel</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/NNPcmGp/Goblin-Cage.png">
+                <div>
+                    <p>Goblin Cage</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/QCPnhKf/Goblin-Gang.png">
+                <div>
+                    <p>Goblin Gang</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/dfGG1Kv/Goblin-Giant.png">
+                <div>
+                    <p>Goblin Giant</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/VtJtbf4/Goblin-Hut.png">
+                <div>
+                    <p>Goblin Hut</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/zN8Rhx5/Goblins.png">
+                <div>
+                    <p>Goblins</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/BC5k7Tc/Golden-Knight.png">
+                <div>
+                    <p class="Champion">Golden Knight</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/BsBgVm3/Golem.png">
+                <div>
+                    <p>Golem</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/n6yLtzD/Graveyard.png">
+                <div>
+                    <p class="Legendary">Graveyard</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/P5rpQL4/Guards.png">
+                <div>
+                    <p>Guards</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/TmT71nw/Heal-Spirit.png">
+                <div>
+                    <p>Heal Spirit</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/y6Yzd0v/Heal.png">
+                <div>
+                    <p>Heal</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/CtRXhyf/Hog-Rider.png">
+                <div>
+                    <p>Hog Rider</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/FbktFLL/Hunter.png">
+                <div>
+                    <p>Hunter</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/9hZ3Mr1/Ice-Golem.png">
+                <div>
+                    <p>Ice Golem</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/LpKK6sc/Ice-Spirit.png">
+                <div>
+                    <p>Ice Spirit</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/HVPS5sN/Ice-Wizard.png">
+                <div>
+                    <p class="Legendary">Ice Wizard</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/vJg7467/Inferno-Dragon.png">
+                <div>
+                    <p class="Legendary">Inferno Dragon</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/g303wWn/Inferno-Tower.png">
+                <div>
+                    <p>Inferno Tower</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/smkdssB/Knight.png">
+                <div>
+                    <p>Knight</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/cTCn6jm/Lava-Hound.png">
+                <div>
+                    <p class="Legendary">Lava Hound</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/L6c5T05/Lightning.png">
+                <div>
+                    <p>Lightning</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/NyDRsJT/Lumberjack.png">
+                <div>
+                    <p class="Legendary">Lumberjack</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/fYGftNw/Magic-Archer.png">
+                <div>
+                    <p class="Legendary">Magic Archer</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/GMsMFTH/Mega-Knight.png">
+                <div>
+                    <p class="Legendary">Mega Knight</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/1m6BPgm/Mega-Minion.png">
+                <div>
+                    <p>Mega Minion</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/3zhm96b/Mighty-Miner.png">
+                <div>
+                    <p class="Champion">Mighty Miner</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/j6hW4D9/Miner.png">
+                <div>
+                    <p class="Legendary">Miner</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/jh9QfGL/Mini-P-E-K-K-A.png">
+                <div>
+                    <p>Mini P.E.K.K.A.</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/5cKWB8j/Minion-Horde.png">
+                <div>
+                    <p>Minion Horde</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/P1fv9VC/Minions.png">
+                <div>
+                    <p>Minions</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ctcF0My/Mirror.png">
+                <div>
+                    <p>Mirror</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/MNbjq0T/Monk.png">
+                <div>
+                    <p class="Champion">Monk</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/MNbjq0T/Monk.png">
+                <div>
+                    <p>Mortar</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/NCN104w/Mother-Witch.png">
+                <div>
+                    <p class="Legendary">Mother Witch</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/qBgCwGJ/Musketeer.png">
+                <div>
+                    <p>Musketeer</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/j4fr5nZ/Night-Witch.png">
+                <div>
+                    <p class="Legendary">Night Witch</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/0h2MBNf/P-E-K-K-A.png">
+                <div>
+                    <p>P.E.K.K.A.</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/Y307Qrq/Phoenix.png">
+                <div>
+                    <p class="Legendary">Phoenix</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/V9bP7Rm/Poison.png">
+                <div>
+                    <p>Poison</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/rZmzQsP/Prince.png">
+                <div>
+                    <p>Prince</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/3SFcq63/Princess.png">
+                <div>
+                    <p class="Legendary">Princess</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/YpXRXWy/Rage.png">
+                <div>
+                    <p>Rage</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/r4MRkkC/Ram-Rider.png">
+                <div>
+                    <p class="Legendary">Ram Rider</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ftnqwkx/Rascals.png">
+                <div>
+                    <p>Rascals</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/CbHJ6Gr/Rocket.png">
+                <div>
+                    <p>Rocket</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/0rTPJVh/Royal-Delivery.png">
+                <div>
+                    <p>Royal Delivery</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/tMKc4QS/Royal-Ghost.png">
+                <div>
+                    <p class="Legendary">Royal Ghost</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/c87YX8h/Royal-Giant.png">
+                <div>
+                    <p>Royal Giant</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/CK44cw3/Royal-Hogs.png">
+                <div>
+                    <p>Royal Hogs</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/wMXBQCp/Royal-Recruits.png">
+                <div>
+                    <p>Royal Recruits</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/D9QssTV/Santa-Hog-Rider.png">
+                <div>
+                    <p class="SuperCard">Santa Hog Rider</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/HzSSPLf/Skeleton-Army.png">
+                <div>
+                    <p>Skeleton Army</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/4sq8x7g/Skeleton-Barrel.png">
+                <div>
+                    <p>Skeleton Barrel</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/F0PXrmp/Skeleton-Dragons.png">
+                <div>
+                    <p>Skeleton Dragons</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/dmrRQ9d/Skeleton-King.png">
+                <div>
+                    <p class="Champion">Skeleton King</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ZS4JrSH/Skeletons.png">
+                <div>
+                    <p>Skeletons</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/ypTVDZX/Sparky.png">
+                <div>
+                    <p class="Legendary">Sparky</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/cFcVPjh/Spear-Goblins.png">
+                <div>
+                    <p>Spear Goblins</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/bgQSB9K/Super-Ice-Golem.png">
+                <div>
+                    <p class="SuperCard">Super Ice Golem</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/vsBZQgW/Super-Lava-Hound.png">
+                <div>
+                    <p class="SuperCard">Super Lava Hound</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/tZkGQxq/Super-Magic-Archer.png">
+                <div>
+                    <p class="SuperCard">Super Magic Archer</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/f0HPK1N/Super-Mini-P-E-K-K-A.png">
+                <div>
+                    <p class="SuperCard">Super Mini P.E.K.K.A.</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/k1KcMjj/Super-Witch.png">
+                <div>
+                    <p class="SuperCard">Super Witch</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/9h6LcDf/Tesla.png">
+                <div>
+                    <p>Tesla</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/6rTVgGM/The-Log.png">
+                <div>
+                    <p class="Legendary">The Log</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/MV5D9RS/Three-Musketeers.png">
+                <div>
+                    <p>Three Musketeers</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/DKbDXFZ/Tombstone.png">
+                <div>
+                    <p>Tombstone</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/6WRfspb/Tornado.png">
+                <div>
+                    <p>Tornado</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/cLLjCDN/Valkyrie.png">
+                <div>
+                    <p>Valkyrie</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/CHcjsZz/Wall-Breakers.png">
+                <div>
+                    <p>Wall Breakers</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/dQwpB14/Witch.png">
+                <div>
+                    <p>Witch</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/s1j3fQ5/Wizard.png">
+                <div>
+                    <p>Wizard</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/s3SjJ9L/X-bow.png">
+                <div>
+                    <p>X-bow</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/qkG08CJ/Zap.png">
+                <div>
+                    <p>Zap</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="https://i.ibb.co/XVRKgyM/Zappies.png">
+                <div>
+                    <p>Zappies</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div>Done By: 11pro11</div>
+    <a href=""><b>Login For More</b></a>
+</body>
+</html>
